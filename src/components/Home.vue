@@ -20,11 +20,11 @@
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                     <div class="lg:flex items-center">
                         <div class="flex justify-center lg:block">
-                            <a class="px-4 py-4 font-medium tracking-wide text-white bg-blue-600 rounded-md focus:outline-none focus:ring 
+                            <router-link to="/login" class="px-4 py-4 font-medium tracking-wide text-white bg-blue-600 rounded-md focus:outline-none focus:ring 
                             focus:ring-blue-300 focus:ring-opacity-80 transition ease-in-out delay-150 
                             hover:shadow-xl hover:scale-110 hover:bg-indigo-500 duration-300" href="#">
                                 Connexion <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -40,9 +40,9 @@
                             <h1 class="text-2xl font-light text-gray-800 uppercase dark:text-white lg:text-5xl">
                                 Gerer les différentes ressources humaines de votre structure</h1>
                             <p class="mt-2 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>
-                            <button class="mt-4 py-4 px-3 text-white rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
+                            <router-link to="/admin/dashboard" class="mt-4 py-4 px-3 text-white rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
                                 commencer maintenant
-                            </button>
+                            </router-link>
                         </div>
                     </div>
             
